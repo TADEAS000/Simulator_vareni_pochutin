@@ -35,7 +35,7 @@ const gardenPrice = document.getElementById ("gardenprice")
 const seedStorage = document.getElementById ("drug9")
 const buySeed = document.getElementById ("drug11")
 
-let moneyCounter = 50
+let moneyCounter = 100
 let hydroAcid2 = 25
 let pseudo2 = 25
 let efedrin2 = 25
