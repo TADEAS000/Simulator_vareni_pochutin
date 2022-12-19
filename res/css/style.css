@@ -1,0 +1,370 @@
+body {
+    background: url(../img/tutorialbackground.png);
+    background-size: cover;
+}
+#tutorialmenu {
+    background-color: darkgray;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    
+}
+#money {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    
+}
+#pharmacy {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 80px;
+}
+#varna {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+}
+#buymenu {
+    background-color: #363636;
+    height: 500px;
+    width: 300px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    font-size:  20px;
+    text-align: center;
+}
+#storagemenu {
+    background-color: #363636;
+    height: 400px;
+    width: 300px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    font-size:  20px;
+    position: absolute;
+    left: 5px;
+    top: 80px;
+}
+#cook {
+    background-color: #363636;
+    height: 50px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+}
+#sell {
+        background-color: #363636;
+        height: 50px;
+        width: 300px;
+        color: gold;
+        font: Helvetica;
+        border: 2px black solid;
+        border-radius: 20px;
+        display: none;
+        font-size:  20px;
+        position: absolute;
+    right: 5px;
+    top: 20px;
+}
+#storagesell {
+    background-color: #363636;
+    height:400px;
+    width: 300px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    font-size:  20px;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+    text-align: center;
+}
+#storagedrug {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+#drug1 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto;
+}
+#drug2 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto;
+}
+#drug3 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto;
+}
+#drug4 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto;
+}
+#drug1:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#drug2:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#drug3:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#drug4:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#cook:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#sell:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#pharmacy:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#varna:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#phone {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+#phone2 {
+    display: none;
+position: absolute;
+bottom: 0px;
+}
+#close {
+    background-color: red;
+    height: 25px;
+    color: black;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 320px;
+    left: 210px;
+}
+#close:hover {
+    background-color: rgb(163, 0, 0);
+}
+#phonetext {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    display: none;
+}
+#upgrade1 {
+    background-color: green;
+    height: 25px;
+    color: black;
+}
+#upgrade2 {
+    background-color: green;
+    height: 25px;
+    color: black;
+}
+#upgrade3 {
+    background-color: green;
+    height: 25px;
+    color: black;
+}
+#out {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+#out:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#next {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+}
+#next:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#dry {
+    background-color: #363636;
+    height: 50px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    margin: 0 auto;
+}
+#process {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 680px;
+    top: 525px;
+}
+#dry:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#garden {
+    background-color: #363636;
+    height: 50px;
+    width: 300px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 140px;
+}
+#garden:hover {
+    cursor: pointer;
+    background-color: #181818;
+}
+#upgrade1:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#upgrade2:hover{
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#upgrade3:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
+#gardenprice {
+    background-color: #363636;
+    height: 150px;
+    width: 300px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display: none;
+    font-size:  20px;
+    text-align: center;
+}
+#drug11 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    color: gold;
+    font: Helvetica;
+    border: 2px black solid;
+    border-radius: 20px;
+    display:block;
+    margin: 0 auto;
+}
+#drug11:hover {
+    background-color: rgb(0, 85, 0);
+    cursor: pointer;
+}
